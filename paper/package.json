@@ -1,6 +1,6 @@
 {
-  "name": "@craftjs-types/paper",
-  "version": "1.17.0-GIT_SHA",
+  "name": "@craftjs-type/paper",
+  "version": "1.19.3-GIT_SHA",
   "description": "Paper API types",
   "repository": {
     "type": "git",
@@ -9,15 +9,15 @@
   },
   "author": "bensku",
   "dependencies": {
-    "@craftjs-types/java.base": "latest"
+    "@craftjs-type/java.base": "latest"
   },
   "tsbindOptions": {
     "artifacts": [
-      "io.papermc.paper:paper-api:1.17-R0.1-SNAPSHOT",
-      "net.kyori:adventure-api:4.8.1",
-      "net.kyori:adventure-key:4.8.1",
-      "net.kyori:adventure-text-serializer-plain:4.8.1",
-      "net.kyori:adventure-text-serializer-legacy:4.8.1"
+      "io.papermc.paper:paper-api:1.19.3-R0.1-SNAPSHOT",
+      "net.kyori:adventure-api:4.12.0",
+      "net.kyori:adventure-key:4.12.0",
+      "net.kyori:adventure-text-serializer-plain:4.12.0",
+      "net.kyori:adventure-text-serializer-legacy:4.12.0"
     ],
     "repos": ["https://papermc.io/repo/repository/maven-public"],
     "out": "paper",

@@ -1,5 +1,5 @@
 {
-  "name": "@craftjs-types/worldedit",
+  "name": "@craftjs-type/worldedit",
   "version": "7.2.5-GIT_SHA",
   "description": "WorldEdit 7 types",
   "repository": {
@@ -9,7 +9,7 @@
   },
   "author": "bensku",
   "dependencies": {
-    "@craftjs-types/paper": "latest"
+    "@craftjs-type/paper": "latest"
   },
   "tsbindOptions": {
     "artifacts": ["com.sk89q.worldedit:worldedit-core:7.2.5", "com.sk89q.worldedit:worldedit-bukkit:7.2.5"],

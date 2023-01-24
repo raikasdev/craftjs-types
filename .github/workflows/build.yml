@@ -10,18 +10,18 @@ jobs:
       - uses: actions/setup-java@v1
         with:
           java-version: 16
-      - name: Generate Bungeecord Chat types
-        run: |
-          java -jar java-ts-bind-all.jar --packageJson bungeecord-chat/package.json
+      #- name: Generate Bungeecord Chat types
+      #  run: |
+      #    java -jar java-ts-bind-all.jar --packageJson bungeecord-chat/package.json
       - name: Generate Paper types
         run: |
           java -jar java-ts-bind-all.jar --packageJson paper/package.json
-      - name: Generate WorldEdit types
-        run: |
-          java -jar java-ts-bind-all.jar --packageJson worldedit/package.json
-      - name: Generate WorldGuard types
-        run: |
-          java -jar java-ts-bind-all.jar --packageJson worldguard/package.json
+      #- name: Generate WorldEdit types
+      #  run: |
+      #    java -jar java-ts-bind-all.jar --packageJson worldedit/package.json
+      #- name: Generate WorldGuard types
+      #  run: |
+      #    java -jar java-ts-bind-all.jar --packageJson worldguard/package.json
       - uses: actions/setup-node@master
         with:
           registry-url: 'https://registry.npmjs.org'

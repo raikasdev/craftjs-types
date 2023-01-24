@@ -1,5 +1,5 @@
 {
-  "name": "@craftjs-types/bungeecord-chat",
+  "name": "@craftjs-type/bungeecord-chat",
   "version": "1.16.4-GIT_SHA",
   "description": "Bungeecord chat types",
   "repository": {
