@@ -13,15 +13,13 @@ jobs:
       - name: Generate Paper types
         run: |
           java -jar java-ts-bind-all.jar --packageJson paper/package.json
-  publish:
-    runs-on: ubuntu-latest
-    if: ${{ github.ref == 'refs/heads/master' }}
-    steps:
       - uses: actions/setup-node@v3
+        if: ${{ github.ref == 'refs/heads/master' }}
         with:
           node-version: '16.x'
           registry-url: 'https://registry.npmjs.org'
       - name: Publish to npm
+        if: ${{ github.ref == 'refs/heads/master' }}
         run: |
           sed -i "s/GIT_SHA/$(git rev-parse --short $GITHUB_SHA)/g" */package.json || true # Fails for .github otherwise
           npm publish --access=public paper
