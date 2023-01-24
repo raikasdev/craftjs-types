@@ -1,5 +1,5 @@
 {
-  "name": "@craftjs-type/worldguard",
+  "name": "@craftjs-typings/worldguard",
   "version": "7.0.5-GIT_SHA",
   "description": "WorldGuard 7 types",
   "repository": {
@@ -9,8 +9,8 @@
   },
   "author": "bensku",
   "dependencies": {
-    "@craftjs-type/paper": "latest",
-    "@craftjs-type/worldedit": "latest"
+    "@craftjs-typings/paper": "latest",
+    "@craftjs-typings/worldedit": "latest"
   },
   "tsbindOptions": {
     "artifacts": ["com.sk89q.worldguard:worldguard-core:7.0.5", "com.sk89q.worldguard:worldguard-bukkit:7.0.5"],

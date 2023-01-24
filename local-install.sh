@@ -10,4 +10,4 @@ java -jar java-ts-bind-all.jar --packageJson $module/package.json
 
 # Copy over existing types under node_modules/@craftjs-types
 echo "Copying types over existing files at $target..."
-cp $module/*.d.ts $target/node_modules/@craftjs-type/$module
+cp $module/*.d.ts $target/node_modules/@craftjs-typings/$module
