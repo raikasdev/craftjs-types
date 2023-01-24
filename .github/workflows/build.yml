@@ -25,7 +25,7 @@ jobs:
       - uses: actions/setup-node@master
         with:
           registry-url: 'https://registry.npmjs.org'
-        if: ${{ github.ref == 'refs/heads/main' }}
+        if: ${{ github.ref == 'refs/heads/master' }}
       - name: Publish to npm
         run: |
           sed -i "s/GIT_SHA/$(git rev-parse --short $GITHUB_SHA)/g" */package.json || true # Fails for .github otherwise
@@ -33,6 +33,6 @@ jobs:
           npm publish --access=public paper
         #  npm publish --access=public worldedit
         #  npm publish --access=public worldguard
-        if: ${{ github.ref == 'refs/heads/main' }}
+        if: ${{ github.ref == 'refs/heads/master' }}
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
