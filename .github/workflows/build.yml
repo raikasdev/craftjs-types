@@ -23,6 +23,6 @@ jobs:
         if: ${{ github.ref == 'refs/heads/master' }}
         run: |
           sed -i "s/GIT_SHA/$(git rev-parse --short $GITHUB_SHA)/g" */package.json || true # Fails for .github otherwise
-          npm publish --access=public paper
+          npm publish --access=public ./paper
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
