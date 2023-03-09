@@ -14,6 +14,12 @@ jobs:
       - name: Generate Paper types
         run: |
           java -jar java-ts-bind-all.jar --packageJson paper/package.json
+      - name: Generate GSit types
+        run: |
+          java -jar java-ts-bind-all.jar --packageJson gsit/package.json
+      - name: Generate LuckPerms types
+        run: |
+          java -jar java-ts-bind-all.jar --packageJson luckperms/package.json
       - uses: actions/setup-node@v3
         if: ${{ github.ref == 'refs/heads/master' }}
         with:
