@@ -30,5 +30,7 @@ jobs:
         run: |
           sed -i "s/GIT_SHA/$(git rev-parse --short $GITHUB_SHA)/g" */package.json || true # Fails for .github otherwise
           npm publish --access=public ./paper
+          npm publish --access=public ./luckperms
+          npm publish --access=public ./gsit
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
