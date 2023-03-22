@@ -19,7 +19,7 @@
       "net.kyori:adventure-text-serializer-plain:4.12.0",
       "net.kyori:adventure-text-serializer-legacy:4.12.0",
       "com.github.Gecolay.GSit:core:1.3.7",
-      "com.github.SkriptLang:Skript:2.6.4"
+      "com.github.SkriptLang:Skript:2.6.2"
     ],
     "repos": ["https://papermc.io/repo/repository/maven-public", "https://jitpack.io"],
     "out": "paper",
