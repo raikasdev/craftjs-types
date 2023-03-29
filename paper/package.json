@@ -19,9 +19,10 @@
       "net.kyori:adventure-text-serializer-plain:4.12.0",
       "net.kyori:adventure-text-serializer-legacy:4.12.0",
       "com.github.Gecolay.GSit:core:1.3.7",
-      "com.github.SkriptLang:Skript:2.6.2"
+      "com.github.SkriptLang:Skript:2.6.2",
+      "net.luckperms:api:5.4"
     ],
-    "repos": ["https://papermc.io/repo/repository/maven-public", "https://jitpack.io"],
+    "repos": ["https://papermc.io/repo/repository/maven-public", "https://repo.maven.apache.org/maven2", "https://jitpack.io"],
     "out": "paper",
     "blacklist": ["net.md_5.bungee.api", "net.kyori.examination"],
     "index": true
