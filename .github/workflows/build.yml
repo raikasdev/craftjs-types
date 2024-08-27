@@ -10,7 +10,7 @@ jobs:
       - uses: actions/setup-java@v3
         with:
           distribution: zulu
-          java-version: 17
+          java-version: 21
       - name: Generate Paper types
         run: |
           java -jar java-ts-bind-all.jar --packageJson paper/package.json
