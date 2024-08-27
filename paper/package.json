@@ -1,6 +1,6 @@
 {
-  "name": "@craftjs-typings/paper-aurinkomaa",
-  "version": "1.19.3-GIT_SHA",
+  "name": "@craftjs-typings/paper",
+  "version": "1.21.1-GIT_SHA",
   "description": "Paper API types",
   "repository": {
     "type": "git",
@@ -13,15 +13,13 @@
   },
   "tsbindOptions": {
     "artifacts": [
-      "io.papermc.paper:paper-api:1.19.4-R0.1-SNAPSHOT",
-      "net.kyori:adventure-api:4.12.0",
-      "net.kyori:adventure-key:4.12.0",
-      "net.kyori:adventure-text-serializer-plain:4.12.0",
-      "net.kyori:adventure-text-serializer-legacy:4.12.0",
-      "com.github.Gecolay.GSit:core:1.3.7",
-      "net.luckperms:api:5.4"
+      "io.papermc.paper:paper-api:1.21.1-R0.1-SNAPSHOT",
+      "net.kyori:adventure-api:4.17.0",
+      "net.kyori:adventure-key:4.17.0",
+      "net.kyori:adventure-text-serializer-plain:4.17.0",
+      "net.kyori:adventure-text-serializer-legacy:4.17.0"
     ],
-    "repos": ["https://papermc.io/repo/repository/maven-public", "https://repo.maven.apache.org/maven2", "https://jitpack.io"],
+    "repos": ["https://papermc.io/repo/repository/maven-public"],
     "out": "paper",
     "blacklist": ["net.md_5.bungee.api", "net.kyori.examination"],
     "index": true
