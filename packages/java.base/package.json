@@ -1,0 +1,11 @@
+{
+  "name": "@craftjs-typings/java.base",
+  "version": "21.0.4-patch25",
+  "description": "java.base TypeScript bindings",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/raikasdev/craftjs-types.git",
+    "directory": "packages/java.base"
+  },
+  "author": "raikasdev"
+}

@@ -1,0 +1,11 @@
+{
+  "name": "@craftjs-typings/java.net.http",
+  "version": "21.0.4-patch25",
+  "description": "java.net.http TypeScript bindings",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/raikasdev/craftjs-types.git",
+    "directory": "packages/java.net.http"
+  },
+  "author": "raikasdev"
+}

@@ -1,0 +1,14 @@
+{
+  "name": "@craftjs-typings/paper",
+  "version": "1.21.3-patch25",
+  "description": "PaperMC TypeScript bindings",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/raikasdev/craftjs-types.git",
+    "directory": "packages/paper"
+  },
+  "author": "raikasdev",
+  "dependencies": {
+    "@craftjs-typings/java.base": "latest"
+  }
+}
