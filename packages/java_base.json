@@ -24,5 +24,6 @@
     "java.util.Scanner",
     "java.io.ProxyingConsole"
   ],
-  "offset": "java.base"
+  "offset": "java.base",
+  "dependencies": ["./typelists/java.json"]
 }]

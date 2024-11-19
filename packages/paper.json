@@ -3,26 +3,31 @@
     "type": "maven",
     "repository": "https://papermc.io/repo/repository/maven-public",
     "artifact": "io.papermc.paper:paper-api:1.21.3-R0.1-SNAPSHOT",
-    "exclude": ["net.md_5.bungee.api", "net.kyori.examination"]
+    "exclude": ["net.md_5.bungee.api", "net.kyori.examination"],
+    "dependencies": ["./typelists/paper.json"]
   },
   {
     "type": "maven",
     "repository": "https://papermc.io/repo/repository/maven-public",
-    "artifact": "net.kyori:adventure-api:4.17.0"
+    "artifact": "net.kyori:adventure-api:4.17.0",
+    "dependencies": ["./typelists/paper.json"]
   },
   {
     "type": "maven", 
     "repository": "https://papermc.io/repo/repository/maven-public",
-    "artifact": "net.kyori:adventure-key:4.17.0"
+    "artifact": "net.kyori:adventure-key:4.17.0",
+    "dependencies": ["./typelists/paper.json"]
   },
   {
     "type": "maven",
     "repository": "https://papermc.io/repo/repository/maven-public", 
-    "artifact": "net.kyori:adventure-text-serializer-plain:4.17.0"
+    "artifact": "net.kyori:adventure-text-serializer-plain:4.17.0",
+    "dependencies": ["./typelists/paper.json"]
   },
   {
     "type": "maven",
     "repository": "https://papermc.io/repo/repository/maven-public",
-    "artifact": "net.kyori:adventure-text-serializer-legacy:4.17.0"
+    "artifact": "net.kyori:adventure-text-serializer-legacy:4.17.0",
+    "dependencies": ["./typelists/paper.json"]
   }
 ]
